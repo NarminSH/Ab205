@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonApp", "ZonApp.csproj", "{B64C95A8-E10D-4807-A624-3B5670734D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64C95A8-E10D-4807-A624-3B5670734D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64C95A8-E10D-4807-A624-3B5670734D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64C95A8-E10D-4807-A624-3B5670734D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64C95A8-E10D-4807-A624-3B5670734D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80FDEF2F-5415-4A1A-9C07-0211E59A76F4}
+	EndGlobalSection
+EndGlobal
