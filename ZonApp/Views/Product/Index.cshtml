@@ -1,0 +1,10 @@
+﻿@using ZonApp.Models;
+@model ICollection<Product>;
+
+<h1>Products</h1>
+
+@foreach(Product item in @Model)
+{
+    <p>@item.Name</p>
+    <p>@item.Price</p>
+}

@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\default-skin.css",
+      "PackagePath": "staticwebassets\\css\\default-skin.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\IcoMoon-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\IcoMoon-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\blog1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\blog2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\coff.png",
+      "PackagePath": "staticwebassets\\images\\coff.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\coff_img.png",
+      "PackagePath": "staticwebassets\\images\\coff_img.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\footer_af.png",
+      "PackagePath": "staticwebassets\\images\\footer_af.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\footer_be.png",
+      "PackagePath": "staticwebassets\\images\\footer_be.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\menu_icon.png",
+      "PackagePath": "staticwebassets\\images\\menu_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\ser_img1.png",
+      "PackagePath": "staticwebassets\\images\\ser_img1.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\ser_img2.png",
+      "PackagePath": "staticwebassets\\images\\ser_img2.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\ser_img3.png",
+      "PackagePath": "staticwebassets\\images\\ser_img3.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\images\\test_pro.jpg",
+      "PackagePath": "staticwebassets\\images\\test_pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\js\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\css\\closedhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\closedhand.html"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\css\\openhand.html",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\openhand.html"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\css\\pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\pe-icon-7-stroke\\fonts\\Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\js\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\js\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\ZonApp\\wwwroot\\js\\slider-setting.js",
+      "PackagePath": "staticwebassets\\js\\slider-setting.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ZonApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ZonApp.props",
+      "PackagePath": "build\\ZonApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ZonApp.props",
+      "PackagePath": "buildMultiTargeting\\ZonApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ZonApp.props",
+      "PackagePath": "buildTransitive\\ZonApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
