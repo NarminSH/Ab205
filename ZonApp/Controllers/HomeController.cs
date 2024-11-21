@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections;
 using System.Collections.Generic;
 using ZonApp.Models;
 
@@ -13,15 +14,18 @@ namespace ZonApp.Controllers
                new User() { Id = 1, Name = "Fizi" },
                new User() { Id = 2, Name = "Togrul" } 
            };
+
+            IEnumerable<User> userler = new List<User>(users);
             
-            //ViewBag.users = users;
-            ViewData["users"] ="null";
-            //TempData["message"] = "hello from temp data";
+
             return View();
         }
         public IActionResult About()
         {
+
+
             return View();
         }
+
     }
 }

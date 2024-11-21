@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\boxicon.min.css",
+      "PackagePath": "staticwebassets\\css\\boxicon.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\templatemo.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.css"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\banner-bg-01.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\banner-bg-02.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\banner-bg-03.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-bg-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\banner-img-01.svg",
+      "PackagePath": "staticwebassets\\img\\banner-img-01.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\banner-img-02.svg",
+      "PackagePath": "staticwebassets\\img\\banner-img-02.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-1-large.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-1-large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-1.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-2-large.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-2-large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-2.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-3-large.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-3-large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-3.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-4-large.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-4-large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\feature-work-4.jpg",
+      "PackagePath": "staticwebassets\\img\\feature-work-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-01.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-02.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-03.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-04.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-05.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\our-work-06.jpg",
+      "PackagePath": "staticwebassets\\img\\our-work-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\pricing.svg",
+      "PackagePath": "staticwebassets\\img\\pricing.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-01.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-02.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-03.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-04.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-05.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\recent-work-06.jpg",
+      "PackagePath": "staticwebassets\\img\\recent-work-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\related-post-01.jpg",
+      "PackagePath": "staticwebassets\\img\\related-post-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\related-post-02.jpg",
+      "PackagePath": "staticwebassets\\img\\related-post-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\related-post-03.jpg",
+      "PackagePath": "staticwebassets\\img\\related-post-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-01.jpg",
+      "PackagePath": "staticwebassets\\img\\services-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-02.jpg",
+      "PackagePath": "staticwebassets\\img\\services-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-03.jpg",
+      "PackagePath": "staticwebassets\\img\\services-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-04.jpg",
+      "PackagePath": "staticwebassets\\img\\services-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-05.jpg",
+      "PackagePath": "staticwebassets\\img\\services-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-06.jpg",
+      "PackagePath": "staticwebassets\\img\\services-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-07.jpg",
+      "PackagePath": "staticwebassets\\img\\services-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\services-08.jpg",
+      "PackagePath": "staticwebassets\\img\\services-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-01.jpg",
+      "PackagePath": "staticwebassets\\img\\team-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-02.jpg",
+      "PackagePath": "staticwebassets\\img\\team-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-03.jpg",
+      "PackagePath": "staticwebassets\\img\\team-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-04.jpg",
+      "PackagePath": "staticwebassets\\img\\team-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-05.jpg",
+      "PackagePath": "staticwebassets\\img\\team-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\team-06.jpg",
+      "PackagePath": "staticwebassets\\img\\team-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-01-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-01-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-01.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-02-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-02-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-02.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-03-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-03-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-03.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-04-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-04-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-04.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-05-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-05-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-05.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-06-small.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-06-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work-slide-06.jpg",
+      "PackagePath": "staticwebassets\\img\\work-slide-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\img\\work.svg",
+      "PackagePath": "staticwebassets\\img\\work.svg"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\fslightbox.js",
+      "PackagePath": "staticwebassets\\js\\fslightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\js\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\templatemo.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.js"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\HomeTaskMVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\js\\templatemo.min.js",
+      "PackagePath": "staticwebassets\\js\\templatemo.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PurpleBuzzPr.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PurpleBuzzPr.props",
+      "PackagePath": "build\\PurpleBuzzPr.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PurpleBuzzPr.props",
+      "PackagePath": "buildMultiTargeting\\PurpleBuzzPr.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PurpleBuzzPr.props",
+      "PackagePath": "buildTransitive\\PurpleBuzzPr.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

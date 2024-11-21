@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZonApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f2e70079ab5c3467da36e13d7780745ebbb5dda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa24052b798c58da1f51d9d904efb156814f0b86")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZonApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZonApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
