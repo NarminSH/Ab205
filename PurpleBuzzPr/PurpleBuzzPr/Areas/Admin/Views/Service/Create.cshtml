@@ -1,0 +1,17 @@
+﻿@model Service;
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input class="form-control" asp-for="Title">
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input class="form-control" asp-for="Description">
+    </div>
+    <div class="form-group">
+        <label asp-for="MainImageUrl"></label>
+        <input class="form-control" asp-for="MainImageUrl">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Service>;
+
+<a type="button" class="btn btn-success mb-3" asp-area="Admin" asp-controller="Service" asp-action="Create">Create Service</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(Service item in Model)
+        {
+        <tr>
+            <th scope="row">@item.Id</th>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td><img src="~/img/@item.MainImageUrl" width="50"/></td>
+            <td><a class ="btn btn-primary">Update</a></td>
+            <td><a class="btn btn-danger" asp-controller="Service" asp-action="Delete" asp-route-id="@item.Id" asp-area="Admin">Delete</a></td>
+        </tr>
+        }
+       
+    </tbody>
+</table>
