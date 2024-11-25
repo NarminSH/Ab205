@@ -7421,6 +7421,18 @@
       "PackagePath": "staticwebassets\\Admin\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\about.png",
+      "PackagePath": "staticwebassets\\Upload\\ServiceImages\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\coff.png",
+      "PackagePath": "staticwebassets\\Upload\\ServiceImages\\coff.png"
+    },
+    {
+      "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\menu_icon.png",
+      "PackagePath": "staticwebassets\\Upload\\ServiceImages\\menu_icon.png"
+    },
+    {
       "Id": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },

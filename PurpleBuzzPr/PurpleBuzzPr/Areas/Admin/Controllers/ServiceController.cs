@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Elfie.Serialization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.Models;
+using System.Linq;
 
 namespace PurpleBuzzPr.Areas.Admin.Controllers
 {
@@ -9,13 +11,15 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
     public class ServiceController : Controller
     {
         private readonly AppDbContext _context;
-        public ServiceController(AppDbContext context)
+        IWebHostEnvironment _webHostEnvironment;
+        public ServiceController(AppDbContext context, IWebHostEnvironment webHost)
         { 
             _context = context;
+            _webHostEnvironment = webHost;
         }
         public async Task<IActionResult> Index()
         {
-           IEnumerable<Service> services = await _context.Services.ToListAsync();
+           IEnumerable<Service> services = await _context.Services.Include(s=>s.Works).ToListAsync();
 
            return View(services);
         }
@@ -40,13 +44,54 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(Service service)
         {
+            
             if (!ModelState.IsValid)
             {
-                return BadRequest("Something went wrong");
+                return View(service);
             }
+            if (!service.Image.ContentType.Contains("image"))
+            {
+                ModelState.AddModelError("Image", "Only image format accepted");
+                return View(service);
+            }
+            string path = _webHostEnvironment.WebRootPath + @"\Upload\ServiceImages\";
+            string fileName = service.Image.FileName;
+            using(FileStream fileStream = new FileStream(path + fileName, FileMode.Create))
+            {
+                service.Image.CopyTo(fileStream);
+            }
+
+            service.MainImageUrl = fileName;
+
             _context.Services.Add(service);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult Update(int? Id)
+        {
+            Service? service = _context.Services.Find(Id);
+            if (service is null)
+            {
+                return NotFound("No such service");
+            }
+            return View(nameof(Create),service);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Service service)
+        {
+            Service? updatedService = _context.Services.AsNoTracking()
+                .FirstOrDefault(x => x.Id == service.Id);
+
+            if (updatedService is null)
+            {
+                return NotFound("No such service");
+            }
+            
+            _context.Services.Update(service);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

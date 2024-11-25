@@ -3,68 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\wwwroot\\upload\\serviceimages\\about.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\wwwroot\\upload\\serviceimages\\about.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\models\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\models\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\purplebuzzpr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\purplebuzzpr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\views\\works\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\views\\works\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|c:\\users\\nshiv\\source\\repos\\ab205mvc\\purplebuzzpr\\purplebuzzpr\\areas\\admin\\controllers\\workscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9D1C73-4D35-4B8F-9895-C530BF5C25DB}|PurpleBuzzPr\\PurpleBuzzPr.csproj|solutionrelative:purplebuzzpr\\areas\\admin\\controllers\\workscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,214 +46,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T12:07:02.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs*",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAArwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:01:35.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:11:57.176Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:43:59.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T11:03:09.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Service.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:12:15.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WorkController.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Controllers\\WorkController.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Controllers\\WorkController.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Controllers\\WorkController.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Controllers\\WorkController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:01:44.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T11:11:19.391Z",
+              "Title": "about.png",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\about.png",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\about.png",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\about.png",
+              "RelativeToolTip": "PurpleBuzzPr\\wwwroot\\Upload\\ServiceImages\\about.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-11-25T11:55:14.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Program.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Program.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Program.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:40:41.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T11:51:42.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Work.cs",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Work.cs",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Models\\Work.cs",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Work.cs",
-              "RelativeToolTip": "PurpleBuzzPr\\Models\\Work.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:24:55.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:44:08.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:58:00.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "PurpleBuzzPr\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-22T10:41:43.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PurpleBuzzPr",
-              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\PurpleBuzzPr.csproj",
-              "RelativeDocumentMoniker": "PurpleBuzzPr\\PurpleBuzzPr.csproj",
-              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\PurpleBuzzPr.csproj",
-              "RelativeToolTip": "PurpleBuzzPr\\PurpleBuzzPr.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-22T10:39:08.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PurpleBuzzPr\\DAL\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\DAL\\AppDbContext.cs",
               "RelativeToolTip": "PurpleBuzzPr\\DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:28:48.645Z",
+              "WhenOpened": "2024-11-25T10:47:34.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:33:59.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Service.cs",
+              "RelativeToolTip": "PurpleBuzzPr\\Models\\Service.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:30:58.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Work.cs",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Work.cs",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Models\\Work.cs",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Models\\Work.cs",
+              "RelativeToolTip": "PurpleBuzzPr\\Models\\Work.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:30:46.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:30:13.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Service\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:16:22.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Works\\Create.cshtml",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Views\\Works\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Views\\Works\\Create.cshtml",
+              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Views\\Works\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T10:11:48.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorksController.cs",
+              "DocumentMoniker": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\WorksController.cs",
+              "RelativeDocumentMoniker": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\WorksController.cs",
+              "ToolTip": "C:\\Users\\nshiv\\source\\repos\\Ab205MVC\\PurpleBuzzPr\\PurpleBuzzPr\\Areas\\Admin\\Controllers\\WorksController.cs",
+              "RelativeToolTip": "PurpleBuzzPr\\Areas\\Admin\\Controllers\\WorksController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T10:11:46.912Z",
               "EditorCaption": ""
             }
           ]

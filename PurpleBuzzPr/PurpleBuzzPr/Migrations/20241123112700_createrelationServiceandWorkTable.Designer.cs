@@ -11,8 +11,8 @@ using PurpleBuzzPr.DAL;
 namespace PurpleBuzzPr.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241121114922_CreatedServiceandWorkTable")]
-    partial class CreatedServiceandWorkTable
+    [Migration("20241123112700_createrelationServiceandWorkTable")]
+    partial class createrelationServiceandWorkTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,13 +65,34 @@ namespace PurpleBuzzPr.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ServiceId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ServiceId");
+
                     b.ToTable("Works");
+                });
+
+            modelBuilder.Entity("PurpleBuzzPr.Models.Work", b =>
+                {
+                    b.HasOne("PurpleBuzzPr.Models.Service", "Service")
+                        .WithMany("Works")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Service");
+                });
+
+            modelBuilder.Entity("PurpleBuzzPr.Models.Service", b =>
+                {
+                    b.Navigation("Works");
                 });
 #pragma warning restore 612, 618
         }
