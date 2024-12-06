@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using PurpleBuzzPr.Services;
+@inject LayoutService service;
+@{
+    Dictionary<string, string> settings = service.GetSettings();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,7 +66,15 @@
                 <div class="navbar align-self-center d-flex">
                     <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
                     <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="nav-link" href="#">@User.Identity.Name</a>
+                        <a class="nav-link" asp-controller="Accounts" asp-action="Logout">Logout</a>
+                    }
+                    else
+                    {
+                    <a class="nav-link" asp-controller="Accounts" asp-action="Login"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    }
                 </div>
             </div>
         </div>
@@ -83,12 +97,12 @@
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <a class="text-light" target="_blank" href='@settings["facebook"]?? "" '>
                                 <i class='bx bxl-facebook-square bx-md'></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                            <a class="text-light" target="_blank" href="@settings["linkedin"]">
                                 <i class='bx bxl-linkedin-square bx-md'></i>
                             </a>
                         </li>
@@ -160,7 +174,7 @@
                     <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:@settings["contactnumber"]">@settings["contactnumber"]</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>

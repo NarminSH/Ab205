@@ -1,13 +1,16 @@
 ﻿using Elfie.Serialization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.Models;
 using System.Linq;
+using PurpleBuzzPr.Utilities;
 
 namespace PurpleBuzzPr.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Admin, Manager" )]
     public class ServiceController : Controller
     {
         private readonly AppDbContext _context;
@@ -27,11 +30,25 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
        
         public IActionResult Delete(int Id)
         {
+            var result = _context.Works.Any(w => w.ServiceId == Id);
+            if (result)
+            {
+                return BadRequest("Something is wrong");
+            }
             Service? deletedService = _context.Services.Find(Id);
             if (deletedService == null) { return NotFound(); }
             else { 
-                _context.Services.Remove(deletedService); 
-                _context.SaveChanges();
+                _context.Services.Remove(deletedService);
+                try
+                {
+                    _context.SaveChanges();
+                }
+                catch (Exception e)
+                {
+
+                    return StatusCode(404, "something is wrong");
+                }
+                
             }
             return RedirectToAction(nameof(Index));
         }
@@ -49,20 +66,19 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
             {
                 return View(service);
             }
-            if (!service.Image.ContentType.Contains("image"))
+            if (!service.Image.CheckType())
             {
                 ModelState.AddModelError("Image", "Only image format accepted");
                 return View(service);
             }
-            string path = _webHostEnvironment.WebRootPath + @"\Upload\ServiceImages\";
-            string fileName = service.Image.FileName;
-            using(FileStream fileStream = new FileStream(path + fileName, FileMode.Create))
+            if (!service.Image.CheckSize(2))
             {
-                service.Image.CopyTo(fileStream);
+                ModelState.AddModelError("Image", "Maximum 2 mb is allowed");
+                return View(service);
             }
 
-            service.MainImageUrl = fileName;
-
+            string uploadedImageUrl = service.Image.Upload(_webHostEnvironment.WebRootPath, @"\Upload\ServiceImages\");
+            service.MainImageUrl = uploadedImageUrl;
             _context.Services.Add(service);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));

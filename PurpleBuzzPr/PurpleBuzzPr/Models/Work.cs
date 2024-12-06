@@ -13,10 +13,11 @@ namespace PurpleBuzzPr.Models
         public string Description { get; set; }
         [AllowNull]
         public string MainImageUrl { get; set; }
-        
+        public List<WorkPhotos>? Photos { get; set; }
 
         public int ServiceId { get; set; }
         public Service? Service { get; set; }
-        
+        public ICollection<EmployeeWork>? EmployeeWorks { get; set; }
+
     }
 }

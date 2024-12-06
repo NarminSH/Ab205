@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.Models;
 using PurpleBuzzPr.ViewModels.Home;
@@ -16,13 +17,13 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         IEnumerable<Service> services = _context.Services.ToList();
-        IEnumerable<Work> works = _context.Works.OrderByDescending(w=>w.Id).Take(3).ToList();
       
         HomeVM homeVM = new HomeVM()
         {
             Services = services,
-            Works = works
+
         };
+        
 
         return View(homeVM);
     }
