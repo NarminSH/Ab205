@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using PurpleBuzzPr.Abstractions;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.DTOs.UserDTOs;
 using PurpleBuzzPr.Models;
@@ -15,14 +16,19 @@ namespace PurpleBuzzPr.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailService _emailService;
+        ILogger<AccountsController> _logger;
 
         public AccountsController(AppDbContext appDbContext, UserManager<AppUser> userManager,
-            SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
+            SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager,
+            IEmailService emailService, ILogger<AccountsController> logger)
         {
             _appDbContext = appDbContext;
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _emailService = emailService;
+            _logger = logger;
         }
 
         public IActionResult Register()
@@ -57,8 +63,29 @@ namespace PurpleBuzzPr.Controllers
                 return View(createUserDto);
             }
             await _userManager.AddToRoleAsync(user, RoleEnums.User.ToString());
+            _emailService.SendWelcome(user.Email);
+
+            string userToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            string? url = Url.Action("ConfirmEmail", "Accounts", new {userId=user.Id, token= userToken },Request.Scheme );
+            _emailService.SendConfirmEmail(user.Email, url);
+
             return RedirectToAction(nameof(Index), "Home");
         }
+        public async Task<IActionResult> ConfirmEmail(string userId,string token)
+        {
+            AppUser? user = await  _userManager.FindByIdAsync(userId);
+            if (user==null)
+            {
+                return BadRequest("Problem occured");
+            }
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                return Ok("Confirmed email");
+            }
+            return BadRequest("Problem occured");
+        }
+       
 
         public IActionResult Login()
         { 
@@ -76,12 +103,17 @@ namespace PurpleBuzzPr.Controllers
             AppUser? user = await _userManager.FindByNameAsync(loginUserDto.EmailOrUsername); 
             if (user == null)
             {
+                
                 user = await _userManager.FindByEmailAsync(loginUserDto.EmailOrUsername);
                 if (user == null)
                 {
-                    ModelState.AddModelError(string.Empty, "Username or password is wrong");
-                    return View();
+
+                    _logger.LogWarning("ehtiyatli ol");
                 }
+            }
+            if (!user.EmailConfirmed)
+            {
+                return BadRequest("Please confirm your email");
             }
 
             var result = await _signInManager.PasswordSignInAsync(user, loginUserDto.Password, loginUserDto.IsPersistant, true);
@@ -90,6 +122,8 @@ namespace PurpleBuzzPr.Controllers
                 ModelState.AddModelError(string.Empty, "Username or password is wrong");
                 return View();
             }
+            
+
             
             return RedirectToAction(nameof(Index), "Home"); 
         }

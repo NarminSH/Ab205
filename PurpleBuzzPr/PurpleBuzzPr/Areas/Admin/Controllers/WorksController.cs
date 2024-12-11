@@ -97,7 +97,7 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
 
         public IActionResult Update(int Id)
         {
-            Work? work = _context.Works.Include(s=> s.Photos).FirstOrDefault(s=>s.Id == Id);
+            Work? work = _context.Works.Include(s => s.Photos).FirstOrDefault(s => s.Id == Id);
             if (work is null)
             {
                 return RedirectToAction(nameof(Index), nameof(Work));
@@ -106,24 +106,74 @@ namespace PurpleBuzzPr.Areas.Admin.Controllers
             {
                 Title = work.Title,
                 Description = work.Description,
-                MainImageUrl = work.MainImageUrl,
-                AdditionalPhotos = work.Photos,
-                
+                ExistingMainImageUrl = work.MainImageUrl,
+                ExistingPhotos = work.Photos,
+
             };
             return View(updateWorkDTO);
         }
+        [HttpPost]
+        public IActionResult Update(UpdateWorkDTO updateWorkDTO)
+        {
+            if (ModelState.IsValid)
+            {
+                Work? existingWork = _context.Works.Find(updateWorkDTO.Id);
+                if (existingWork is null)
+                {
+                    return BadRequest();
+                }
+                if (updateWorkDTO.NewPhotos != null && updateWorkDTO.NewPhotos.Count>0) 
+                {
+                    foreach (IFormFile photo in updateWorkDTO.NewPhotos)
+                    {
+                        if (!photo.CheckType())
+                        {
+                            ModelState.AddModelError("NewPhotos", "Only Image accepted");
+                            return View();
+                        }
+                        if (!photo.CheckSize(2))
+                        {
+                            ModelState.AddModelError("NewPhotos", "No more than 2 mb is accepted");
+                            return View();
+                        }
+                    }
+                    List<WorkPhotos> updatedPhotos = new List<WorkPhotos>();
+                    foreach (IFormFile item in updateWorkDTO.NewPhotos)
+                    {
+                        string imageUrl = item.Upload(_webHostEnvironment.WebRootPath, @"\Upload\WorkImages\");
+                        WorkPhotos workPhoto = new WorkPhotos()
+                        {
+                            Work = existingWork,
+                            ImageUrl = imageUrl
+                        };
+                        updatedPhotos.Add(workPhoto);
+                    }
+                    _context.WorkPhotos.AddRange(updatedPhotos);
+                }
+                existingWork.Title = updateWorkDTO.Title;
+                existingWork.Description = updateWorkDTO.Description;
+                existingWork.MainImageUrl = updateWorkDTO.NewMainImage.Upload(_webHostEnvironment.WebRootPath, @"\Upload\WorkImages\");
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(updateWorkDTO);
+        }
+
+
 
         public IActionResult DeleteWorkPhoto(int photoId)
         {
-            WorkPhotos? photoToDeleted = _context.WorkPhotos.Find(photoId);
+            WorkPhotos? photoToDeleted = _context.WorkPhotos.Include(w=>w.Work).FirstOrDefault(w=>w.Id == photoId);
             if (photoToDeleted is null)
             {
                 return RedirectToAction(nameof(Index));
             }
             System.IO.File.Delete(_webHostEnvironment.WebRootPath + @$"\Upload\WorkImages\{photoToDeleted.ImageUrl}");
             _context.WorkPhotos.Remove(photoToDeleted);
+            
             _context.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Update), new {photoToDeleted.Work.Id});
         }
     }
 }

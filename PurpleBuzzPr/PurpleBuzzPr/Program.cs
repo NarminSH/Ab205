@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PurpleBuzzPr.Abstractions;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.Models;
 using PurpleBuzzPr.Services;
+using PurpleBuzzPr.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
     opt.Password.RequiredLength = 4;
@@ -16,6 +17,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._";
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 builder.Services.AddDbContext<AppDbContext>(
     options =>
@@ -24,6 +26,11 @@ builder.Services.AddDbContext<AppDbContext>(
 builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
+
+
+
+
+
 
 app.UseStaticFiles();
 

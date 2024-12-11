@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using PurpleBuzzPr.DAL;
 using PurpleBuzzPr.Models;
+using PurpleBuzzPr.Utilities;
 using PurpleBuzzPr.ViewModels.Home;
 
 namespace PurpleBuzzPr.Controllers;
@@ -17,7 +18,6 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         IEnumerable<Service> services = _context.Services.ToList();
-      
         HomeVM homeVM = new HomeVM()
         {
             Services = services,
@@ -32,6 +32,10 @@ public class HomeController : Controller
     {
        
 
+        return View();
+    }
+    public IActionResult Error()
+    {
         return View();
     }
 }

@@ -1,14 +1,9 @@
 ﻿@model PurpleBuzzPr.DTOs.WorkDTOs.UpdateWorkDTO
-
-
-
 <h1>Update Work</h1>
-
-
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form  enctype="multipart/form-data">
+        <form enctype="multipart/form-data" asp-action="Update" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
@@ -20,38 +15,43 @@
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
-          @*    <div class="form-group">
-                 <label asp-for="MainImage" class="control-label"></label>
-                 <input asp-for="MainImage" class="form-control" />
-                 <span asp-validation-for="MainImage" class="text-danger"></span>
-             </div> *@
+            @*    <div class="form-group">
+            <label asp-for="MainImage" class="control-label"></label>
+            <input asp-for="MainImage" class="form-control" />
+            <span asp-validation-for="MainImage" class="text-danger"></span>
+            </div> *@
             <div class="form-group">
-                <label asp-for="MainImage"></label>
-                <img src="~/Upload/WorkImages/MainImages/@Model.MainImageUrl" height="100" />
+                <label asp-for="ExistingMainImageUrl"></label>
+                <img src="~/Upload/WorkImages/@Model.ExistingMainImageUrl" height="100" />
             </div>
             <div class="form-group">
-            <label asp-for="AdditionalImages"></label>
-                @foreach (WorkPhotos item in Model.AdditionalPhotos ?? new List<WorkPhotos>())
-                {
-                    <img src="~/Upload/WorkImages/@item.ImageUrl" height="100" />
-                    <a asp-area="Admin" asp-controller="Works" asp-action="DeleteWorkPhoto" asp-route-photoId="@item.Id">x</a>
-                }
+                <label asp-for="ExistingPhotos"></label>
+                <div class="card-group">
+                    @foreach (WorkPhotos item in Model.ExistingPhotos ?? new List<WorkPhotos>())
+                    {
+                        <div class="card">
+                            <img class="card-img-top" src="~/Upload/WorkImages/@item.ImageUrl">
+                            <a asp-area="Admin" asp-controller="Works" asp-action="DeleteWorkPhoto" asp-route-photoId="@item.Id">x</a>
+                        </div>
+                    }
+                </div>
             </div>
-
-            
-
-           
-
-            
+            <div class="form-group">
+            <label asp-for="NewMainImage" class="control-label"></label>
+            <input asp-for="NewMainImage" class="form-control" />
+            <span asp-validation-for="NewMainImage" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label asp-for="NewPhotos" class="control-label"></label>
+                <input asp-for="NewPhotos" class="form-control" />
+                <span asp-validation-for="NewPhotos" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Update" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
-

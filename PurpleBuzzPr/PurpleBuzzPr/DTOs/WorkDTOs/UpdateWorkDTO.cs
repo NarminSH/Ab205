@@ -4,19 +4,18 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace PurpleBuzzPr.DTOs.WorkDTOs
 {
-    public class UpdateWorkDTO
+
+  public class UpdateWorkDTO
     {
+        public int Id { get; set; }
         [MinLength(3), DisallowNull]
         public string Title { get; set; }
         public string Description { get; set; }
-        [Required]
-        public string MainImageUrl { get; set; }
-        public int ServiceId { get; set; }
-        public List<int> EmployeeIds { get; set; }
-        public List<WorkPhotos>? AdditionalPhotos { get; set; }
-        public IFormFile MainImage { get; set; }
-        public List<IFormFile> AdditionalImages { get; set; }
+ 
+        public string? ExistingMainImageUrl { get; set; }
 
-
+        public List<WorkPhotos>? ExistingPhotos { get; set; }
+        public IFormFile? NewMainImage { get; set; }
+        public List<IFormFile>? NewPhotos { get; set; }
     }
 }
