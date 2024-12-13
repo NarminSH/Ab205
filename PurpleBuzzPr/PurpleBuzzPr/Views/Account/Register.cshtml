@@ -18,7 +18,7 @@
                             <form class="user" method="post">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input class="form-control form-control-user" asp-for="FirstName" >
+                                        <input class="form-control form-control-user" asp-for="FirstName">
                                         <span asp-validation-for="FirstName" class="text-danger"></span>
                                     </div>
                                     <div class="col-sm-6">
@@ -27,7 +27,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control form-control-user" asp-for="Email" >
+                                    <input class="form-control form-control-user" asp-for="Email">
                                     <span asp-validation-for="Email" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
@@ -36,16 +36,16 @@
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input  class="form-control form-control-user" asp-for="Password">
+                                        <input class="form-control form-control-user" asp-for="Password">
                                         <span asp-validation-for="Password" class="text-danger"></span>
                                     </div>
                                     <div class="col-sm-6">
-                                        <input  class="form-control form-control-user" asp-for="ConfirmPassword">
+                                        <input class="form-control form-control-user" asp-for="ConfirmPassword">
                                         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <p class="text-danger">  
+                                            <p class="text-danger">
                                                 @Html.ValidationSummary()
                                             </p>
                                         </div>

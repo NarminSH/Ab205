@@ -8,6 +8,7 @@ using PurpleBuzzPr.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession();
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 {
     opt.Password.RequiredLength = 4;
@@ -27,9 +28,22 @@ builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
 
+//if (!app.Environment.IsDevelopment())
+//{
+//    app.UseDeveloperExceptionPage();
+//}
+//else
+//{
+//    app.UseExceptionHandler("/Home/GlobalException");
+//}
 
 
+app.UseSession();
 
+
+app.UseStatusCodePagesWithReExecute("/Home/Error");
+
+//app.UseStatusCodePages(contentType:"text/html", bodyFormat:"<h1>404 not found</h1>");
 
 
 app.UseStaticFiles();

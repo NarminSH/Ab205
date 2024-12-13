@@ -10,18 +10,18 @@ using System.Runtime.InteropServices;
 namespace PurpleBuzzPr.Controllers
 {
 
-    public class AccountsController : Controller
+    public class AccountController : Controller
     {
         private readonly AppDbContext _appDbContext;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailService _emailService;
-        ILogger<AccountsController> _logger;
+        ILogger<AccountController> _logger;
 
-        public AccountsController(AppDbContext appDbContext, UserManager<AppUser> userManager,
+        public AccountController(AppDbContext appDbContext, UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager,
-            IEmailService emailService, ILogger<AccountsController> logger)
+            IEmailService emailService, ILogger<AccountController> logger)
         {
             _appDbContext = appDbContext;
             _userManager = userManager;
@@ -66,7 +66,7 @@ namespace PurpleBuzzPr.Controllers
             _emailService.SendWelcome(user.Email);
 
             string userToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-            string? url = Url.Action("ConfirmEmail", "Accounts", new {userId=user.Id, token= userToken },Request.Scheme );
+            string? url = Url.Action("ConfirmEmail", "Account", new {userId=user.Id, token= userToken },Request.Scheme );
             _emailService.SendConfirmEmail(user.Email, url);
 
             return RedirectToAction(nameof(Index), "Home");
@@ -91,10 +91,12 @@ namespace PurpleBuzzPr.Controllers
         { 
             return View(); 
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(LoginUserDto loginUserDto) 
+        public async Task<IActionResult> Login(LoginUserDto loginUserDto, string? ReturnUrl) 
         {
+           
             
             if (!ModelState.IsValid)
             {
@@ -117,14 +119,23 @@ namespace PurpleBuzzPr.Controllers
             }
 
             var result = await _signInManager.PasswordSignInAsync(user, loginUserDto.Password, loginUserDto.IsPersistant, true);
+            //Response.Cookies.Append("UserName", user.UserName, new CookieOptions()
+            //{
+            //    Expires = DateTime.Now.AddSeconds(5),
+            //});
+            //HttpContext.Session.SetString("SessionUserName", user.UserName);
             if (!result.Succeeded)
             {
                 ModelState.AddModelError(string.Empty, "Username or password is wrong");
                 return View();
             }
-            
+            if (ReturnUrl != null)
+            {
+                return Redirect(ReturnUrl);
+            }
 
-            
+
+
             return RedirectToAction(nameof(Index), "Home"); 
         }
 
